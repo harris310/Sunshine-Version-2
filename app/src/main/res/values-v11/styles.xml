@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">#FF9800</item>
+        <!--<item name="android:actionBarStyle">@style/CustomActionBar</item>-->
+        <item name="android:colorButtonNormal">#FF9800</item>
+    </style>
+</resources>

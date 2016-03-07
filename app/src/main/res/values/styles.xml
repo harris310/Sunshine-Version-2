@@ -1,8 +1,21 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
         <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">#FF9800</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+        <item name="android:colorButtonNormal">#FF9800</item>
     </style>
+
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="android:titleTextStyle">@style/CustomTextColor</item>
+        <item name="android:colorPrimary">#FF9800</item>
+    </style>
+    <style name="CustomTextColor" parent="@android:style/TextAppearance.Holo.Widget.ActionMode.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
 
 </resources>
